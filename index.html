@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NOBODYHATERR® — Independent graphic designer</title>
+<meta name="description" content="NOBODYHATERR® is an independent graphic designer: visual experiments, art direction, covers, posters and motion.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B162C" media="(prefers-color-scheme: dark)">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:title" content="NOBODYHATERR®">
+<meta property="og:description" content="Independent graphic designer — visual experiments, art direction, covers, posters and motion.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+<!-- Symbol: the NOBODYHATERR mark, vector, follows currentColor (replaces the PNG + invert() filter). -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="mark" viewBox="0 0 420 562">
+    <path fill="currentColor" fill-rule="evenodd" d="M0 0H420V562H0Z M278 0H420V142H350A72 72 0 0 1 278 70Z M136 136H210A74 74 0 0 1 284 210V283H210A74 74 0 0 1 136 209Z M0 278H68.5A73.5 73.5 0 0 1 68.5 425H0Z M136 492A72 72 0 0 1 208 420H420V562H136Z"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="bar" id="bar">
+  <a class="brand" href="#home" data-i18n-attr="aria-label:home.label" aria-label="NOBODYHATERR — home">
+    <svg class="mark" viewBox="0 0 420 562" aria-hidden="true"><use href="#mark"/></svg>
+  </a>
+
+  <nav class="nav glass" id="nav" aria-label="Main" data-i18n-attr="aria-label:nav.label">
+    <span class="nav__pill" aria-hidden="true"></span>
+    <a href="#work" data-sec="work" data-i18n="nav.work">Graphics</a>
+    <a href="#video" data-sec="video" data-i18n="nav.video">Motion</a>
+    <a href="#about" data-sec="about" data-i18n="nav.about">About</a>
+    <a href="#contact" data-sec="contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+
+  <div class="lang glass" role="group" aria-label="Language / Langue">
+    <button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button>
+    <button type="button" data-lang="fr" lang="fr" aria-pressed="false">FR</button>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <!-- HOME -->
+  <section class="hero" id="home" aria-labelledby="h1">
+    <h1 class="sr" id="h1">NOBODYHATERR®</h1>
+    <div class="hero__wm" aria-hidden="true">
+      <div class="hero__row1">
+        <span class="ln ln--a">Nobody</span>
+        <svg class="hero__mark pre" viewBox="0 0 420 562" focusable="false">
+          <defs>
+            <mask id="carve" maskUnits="userSpaceOnUse" x="0" y="0" width="420" height="562">
+              <rect width="420" height="562" fill="#fff"/>
+              <path class="t t1" fill="#000" d="M278 0H420V142H350A72 72 0 0 1 278 70Z"/>
+              <path class="t t2" fill="#000" d="M136 136H210A74 74 0 0 1 284 210V283H210A74 74 0 0 1 136 209Z"/>
+              <path class="t t3" fill="#000" d="M0 278H68.5A73.5 73.5 0 0 1 68.5 425H0Z"/>
+              <path class="t t4" fill="#000" d="M136 492A72 72 0 0 1 208 420H420V562H136Z"/>
+            </mask>
+          </defs>
+          <rect width="420" height="562" fill="currentColor" mask="url(#carve)"/>
+        </svg>
+      </div>
+      <span class="ln ln--b">Haterr<sup>®</sup></span>
+    </div>
+
+    <dl class="hero__meta">
+      <div><dt class="sr">Role</dt><dd data-i18n="hero.role">Independent graphic designer</dd></div>
+      <div><dt class="sr">Focus</dt><dd data-i18n="hero.focus">Visual experiments / Art direction / Graphic design</dd></div>
+      <div><dt class="sr">Status</dt><dd class="avail"><i aria-hidden="true"></i><span data-i18n="hero.avail">Available for select projects</span></dd></div>
+      <div><dt class="sr">Year</dt><dd>2026</dd></div>
+    </dl>
+  </section>
+
+  <!-- GRAPHICS -->
+  <section class="sec" id="work" aria-labelledby="work-h">
+    <header class="sec__head rv">
+      <h2 class="display" id="work-h" data-i18n="work.title">Graphics</h2>
+      <p class="label sec__meta"><span data-i18n="work.meta">Covers / Posters</span><br><span data-i18n="work.tools">Photoshop + Illustrator</span></p>
+    </header>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- MOTION -->
+  <section class="sec" id="video" aria-labelledby="video-h">
+    <header class="sec__head rv">
+      <h2 class="display" id="video-h" data-i18n="video.title">Motion</h2>
+      <p class="label sec__meta"><span data-i18n="video.meta">Motion / Effects</span><br><span data-i18n="video.tools">TouchDesigner</span></p>
+    </header>
+    <div class="grid grid--video" id="vgrid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="sec about" id="about" aria-labelledby="about-h">
+    <h2 class="display display--m rv" id="about-h" data-i18n-html="about.title">Graphic design &amp;<br>visual experimentation</h2>
+    <div class="about__lead rv">
+      <p data-i18n="about.p1">NOBODYHATERR is an independent graphic designer exploring visual identities, typography, digital culture and experimental graphic design.</p>
+      <p data-i18n="about.p2">Creating visuals between art, music, fashion and contemporary culture.</p>
+    </div>
+    <div class="about__list rv">
+      <h3 class="label" data-i18n="about.disciplines">Disciplines</h3>
+      <div class="acc" id="acc"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact theme-dark" id="contact" aria-labelledby="contact-h">
+    <h2 class="display display--m rv" id="contact-h" data-i18n-html="contact.title">Have a project<br>in mind? Let’s create something different.</h2>
+    <div class="contact__actions rv">
+      <a class="btn btn--primary" href="mailto:nobodyhaterr@gmail.com">
+        <span data-i18n="contact.mail">Email me</span>
+        <span class="btn__addr">nobodyhaterr@gmail.com</span>
+      </a>
+      <button class="btn" type="button" id="copy"><span data-i18n="contact.copy">Copy email address</span></button>
+      <a class="btn btn--ghost" href="https://instagram.com/nobodyhaterr" target="_blank" rel="noopener"><span data-i18n="contact.ig">Instagram</span> <span aria-hidden="true">↗</span><span class="sr"> (new tab)</span></a>
+      <p class="sr" id="copy-status" role="status" aria-live="polite"></p>
+    </div>
+
+    <footer class="foot">
+      <svg class="foot__mark" viewBox="0 0 420 562" role="img" aria-label="NOBODYHATERR"><use href="#mark"/></svg>
+      <p class="label"><span data-i18n="foot.tag">Nobody is watching. Create anyway.</span></p>
+      <p class="label foot__credit">NOBODYHATERR® 2026 · <span data-i18n="foot.credit">Vibecoded with Claude</span></p>
+    </footer>
+  </section>
+</main>
+
+<!-- Project sheet (opens from #p0, #p1… / #v0) -->
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" hidden>
+  <div class="sheet__scroll" id="sheet-scroll" tabindex="-1"></div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
